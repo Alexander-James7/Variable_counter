@@ -1,0 +1,9 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="Xe`%!Uy)?,-_]!.y|Qht">counter</variable></variables><block type="pxt-on-start" id="[6hhbqI0C86y+kao2^[3" x="20" y="20"><statement name="HANDLER"><block type="variables_set" id="Z}G8QN*[S0p*#^u4K8h9"><field name="VAR" id="Xe`%!Uy)?,-_]!.y|Qht">counter</field><value name="VALUE"><shadow type="math_number" id="fio9dHTQy13i|CD35trG"><field name="NUM">0</field></shadow></value></block></statement></block><block type="device_button_event" id="PCXGFII%}:/aCPWa]pSG" x="353" y="200"><field name="NAME">Button.AB</field><comment pinned="true" h="191" w="240">Created by: Alexander James
+
+Date: September 27th 2022
+
+This code displays the value of the variable on the LED screen</comment><statement name="HANDLER"><block type="device_show_number" id="1KiTzjNezmsTV?`)y(zK"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="[oO$YT8gwqXBnh)MLf_."><field name="VAR" id="Xe`%!Uy)?,-_]!.y|Qht">counter</field></block></value></block></statement></block><block type="device_button_event" id="^^nIA7[p2i2^Wdvb}[LG" x="17" y="368"><field name="NAME">Button.B</field><comment pinned="true" h="236" w="294">Created by: Alexander James
+
+Date: September 27th 2022
+
+This code decreases the variable by 1</comment><statement name="HANDLER"><block type="variables_change" id="6}^5O`z)6CiFopw6vbuZ"><field name="VAR" id="Xe`%!Uy)?,-_]!.y|Qht">counter</field><value name="VALUE"><shadow type="math_number" id="Yv0Wa$dza^Si@)FA|-8$"><field name="NUM">-1</field></shadow></value></block></statement></block></xml>
